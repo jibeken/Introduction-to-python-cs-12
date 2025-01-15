@@ -12,7 +12,8 @@ subject3 = float(input("Введите оценку по третьему пре
 average_grade = (subject1 + subject2 + subject3) / 3
 
 passing_grade = 4.0
-is_allowed = average_grade >= passing_grade
+is_allowed = True
+not_allowed = False
 
 print("\n--- Результаты ---")
 print(f"Студент: {studentName}")
